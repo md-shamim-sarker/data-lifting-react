@@ -1,0 +1,26 @@
+.Grandparent {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-color: #81694a;
+    margin: 2rem;
+}
+
+.Grandparent button {
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+
+.Grandparent button:hover {
+    background-color: #f83715;
+}
+
+@media screen and (max-width: 768px) {
+    .Grandparent button {
+        padding: 0.3rem 1rem;
+    }
+}
